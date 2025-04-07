@@ -5488,10 +5488,10 @@ t_distr_HN = cbind(data_t_distr_HN, abs_biast_distrjags.bin_HN,rel_biast_distrja
 
 Overlap_tdistr_HN = cbind(overlapt_HN, avg_overlapt_HN)
 
-write.csv(t_distr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Results_t_distr_Normal_bin_data_k=26_mu=0_tau2=2.63.csv",row.names=FALSE )  
-write.csv(delta_tdistr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Relative_eff_Results_t_distr_Normal_bin_data_k=26_mu=0_tau2=2.63.csv" ) 
-write.csv(listat_distr_rel_eff_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Bias_Relative_eff_Results_t_distr_Normal_bin_data_k=26_mu=0_tau2=2.63.csv" ) 
-write.csv(Overlap_tdistr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Overlap_tdistr_Normal_bin_data_k=26_mu=0_tau2=2.63.csv" ) 
+write.csv(t_distr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Results_t_distr_Normal_bin_data_k=26_mu=0.5_tau2=0.12.csv",row.names=FALSE )  
+write.csv(delta_tdistr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Relative_eff_Results_t_distr_Normal_bin_data_k=26_mu=0.5_tau2=0.12.csv" ) 
+write.csv(listat_distr_rel_eff_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Bias_Relative_eff_Results_t_distr_Normal_bin_data_k=26_mu=0.5_tau2=0.12.csv" ) 
+write.csv(Overlap_tdistr_HN, "C:\\Users\\Lela Panag\\Desktop\\SIMULATION SCENARIOS FINAL\\NORMAL DATA\\T MODEL\\rev_HN_Overlap_tdistr_Normal_bin_data_k=26_mu=0.5_tau2=0.12.csv" ) 
 # 
 
 ################## T(Unif) #########
@@ -5938,7 +5938,7 @@ t_distr_U = cbind(data_t_distr_U, abs_biast_distrjags.bin_U,rel_biast_distrjags.
                   MSE_t_distrjags.tau2.bin_U, avg_MSE_t_distrjags.tau2.bin_U, nMSE_t_distrjags.tau2.bin_U, coverage_tau2t_distrjags.bin_U,
                   cover_tau2t_distrjags.bin_U,
                   rel_bias_taut_distrjags.bin_U, avg_rel_bias_taut_distrjags.bin_U, prel_bias_taut_distrjags.bin_U,
-                  abs_bias_taut_distrjags.bin_U, avg_bias_taut_distrjags.bin_U, pabs_bias_taut_distrjags.bin_U,
+                  abs_bias_taut_distrjags.bin_U, avg_abs_taut_distrjags.bin_U, pabs_bias_taut_distrjags.bin_U,
                   
                   MSE_t_distrjags.tau.bin_U, avg_MSE_t_distrjags.tau.bin_U, nMSE_t_distrjags.tau.bin_U, coverage_taut_distrjags.bin_U,
                   cover_taut_distrjags.bin_U,
