@@ -8083,7 +8083,7 @@ for(i in 1:r){
     else{ matrix1[6,2] <- mean_abs_bias_of_mean_abs_bias_relSN_U}
     
     if(RhatDP_out_HN_U_26>0.05){
-      matrix11[7,2] <- "NON-CONVERGENCE"
+      matrix1[7,2] <- "NON-CONVERGENCE"
     }
     else{matrix1[7,2] <- mean_abs_bias_of_mean_abs_bias_relDP_HN_U_26}
     
@@ -8139,7 +8139,7 @@ for(i in 1:r){
     else{ matrix1[6,3] <- mean_rel_bias_of_mean_rel_bias_relSN_U}
     
     if(RhatDP_out_HN_U_26>0.05){
-      matrix11[7,3] <- "NON-CONVERGENCE"
+      matrix1[7,3] <- "NON-CONVERGENCE"
     }
     else{matrix1[7,3] <- mean_rel_bias_of_mean_rel_bias_relDP_HN_U_26}
     
